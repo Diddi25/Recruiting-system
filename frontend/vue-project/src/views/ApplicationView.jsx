@@ -1,6 +1,6 @@
 export default function ApplicationView(props) {
     return (<div class="apply">
-        <h1>Register job application</h1>
+        <h2>Register job application</h2>
         <h4>Competence profile</h4>
         <div class="text-input"><input type="text">
         </input></div>

@@ -4,6 +4,7 @@ import NavbarPresenter from './presenters/NavbarPresenter';
 </script>
 
 <template>
+  <h1>Recruitement Application</h1>
     <NavbarPresenter/>
   <RouterView />
 </template>

@@ -1,6 +1,6 @@
 export default function RegisterView(props) {
     return (<div class="register">
-        <h1>Create an account</h1>        
+        <h2>Create an account</h2>        
         <h4>First name</h4>
         <div class="text-input"><input type="text">
         </input></div>
