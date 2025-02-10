@@ -34,14 +34,6 @@ public class Person {
     public Person() {
     }
 
-    // Constructor without availabilityPeriods and competences
-    public Person(String firstName, String lastName, String personNumber, String email) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.personNumber = personNumber;
-        this.email = email;
-    }
-
     // Constructor with all fields
     public Person(String firstName, String lastName, String personNumber, String email, List<String> availabilityPeriods, List<String> competences) {
         this.firstName = firstName;
@@ -52,7 +44,6 @@ public class Person {
         this.competences = competences;
     }
 
-    // Getter and Setter for id
     public long getId() {
         return id;
     }
@@ -113,5 +104,5 @@ public class Person {
 
     public void setCompetences(List<String> competences) {
         this.competences = competences;
-    }
+    } 
 }
