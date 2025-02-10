@@ -1,4 +1,4 @@
-# Recruiting System
+# Recruiting System (on-going project)
 
 A web-based Recruiting System for managing job applications, tracking applicants, and streamlining the hiring process.
 
