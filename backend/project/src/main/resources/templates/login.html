@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inloggning</title>
+</head>
+<body>
+<h2>Inloggning</h2>
+
+<div th:if="${error}" class="error" style="color: red;">
+    <p th:text="${error}"></p>
+</div>
+
+<form th:action="@{/login}" method="post">
+    <label for="anvandarnamn">Användarnamn:</label>
+    <input type="text" id="anvandarnamn" name="username" required>
+
+    <label for="losenord">Lösenord:</label>
+    <input type="password" id="losenord" name="password" required>
+
+    <button type="submit">Logga in</button>
+</form>
+</body>
+</html>
